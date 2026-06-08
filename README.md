@@ -40,3 +40,6 @@ patch < fix.patch
 chmod +x bootstrap-rivet.sh
 INSTALL_PREFIX=$HOME/rivet ./bootstrap-rivet.sh
 source $HOME/rivet/local/rivetenv.sh
+## Upstream Issue
+Reported here: https://gitlab.com/hepcedar/rivet/-/issues/2
+
