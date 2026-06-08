@@ -1,6 +1,5 @@
 # rivet-bootstrap-4bugs-fix
 `Fixed bootstrap installer for Rivet 4.1.3 - resolves fjcontrib path, ONNX ARM support, venv prompt, and curl quoting bugs`
-cat > README.md << 'EOF'
 # Rivet Bootstrap Script - Patch for v4.1.3
 
 This repository provides patches for bugs in the official Rivet bootstrap installer.
