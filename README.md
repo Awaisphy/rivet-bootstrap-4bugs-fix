@@ -1,5 +1,6 @@
 # Rivet-bootstrap-4bugs-fix
 `Fixed bootstrap installer for Rivet 4.1.3 - resolves fjcontrib path, ONNX ARM support, venv prompt, and curl quoting bugs`
+
 # Rivet Bootstrap Script - Patch for v4.1.3
 
 This repository provides patches for bugs in the official Rivet bootstrap installer.
@@ -31,7 +32,7 @@ https://gitlab.com/hepcedar/rivet/-/blob/release-4-1-x/doc/tutorials/bootstrap-r
 wget https://gitlab.com/hepcedar/rivet/-/raw/release-4-1-x/doc/tutorials/bootstrap-rivet.sh
 
 # 2. Download patch from this repo
-wget https://raw.githubusercontent.com/Awaisphy/rivet-bootstrap-fixed/main/fix.patch
+wget https://raw.githubusercontent.com/Awaisphy/rivet-bootstrap-4bugs-fix/main/fix.patch
 
 # 3. Apply patch
 patch < fix.patch
@@ -40,7 +41,3 @@ patch < fix.patch
 chmod +x bootstrap-rivet.sh
 INSTALL_PREFIX=$HOME/rivet ./bootstrap-rivet.sh
 source $HOME/rivet/local/rivetenv.sh
-
-## Upstream Issue
-Reported here: https://gitlab.com/hepcedar/rivet/-/issues/2
-
